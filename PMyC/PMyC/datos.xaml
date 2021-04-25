@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PMyC.datos">
+    <StackLayout BackgroundColor="SteelBlue">
+        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+            <Label Text="Datos de Identificación" HorizontalTextAlignment="Center"  TextColor="AliceBlue" FontSize="32"/>
+        </Frame>
+        <Label Text="INTEGRANTES:" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="GUSTAVO MORALES DÍAZ" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="JORGE RODRIGO MORALES RODRÍGUEZ" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="JUAN CARLOS RAMÍREZ BARBA" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="JULIO CESAR TEHOZOL CURIEL" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="SEMESTRE:" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="6" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="GRUPO:" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="AMPG" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="ASIGNATURA:" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="DESARROLLA APLICACIONES MÓVILES PARA IOS" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="DOCENTE:" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="PATRICIA CEDILLO XOCHIPA" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="FECHA:" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="27/ABRIL/2021" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue"/>
+    </StackLayout>
+</ContentPage>

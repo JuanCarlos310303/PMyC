@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PMyC.lgu">
+
+    <StackLayout BackgroundColor="SteelBlue">
+        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+            <Label Text="Ley de Gravitación Universal" HorizontalTextAlignment="Center"  TextColor="AliceBlue" FontSize="32"/>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

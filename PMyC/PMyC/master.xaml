@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PMyC.master"
+             Title="Master">
+   
+        <StackLayout BackgroundColor="LightSteelBlue">
+        <Frame BackgroundColor="SteelBlue">
+            <Label Text="Contenido" TextColor="White" FontSize="20" HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"/>
+        </Frame>
+        <Button Text="MOVIMIENTO RECTILÍNEO              UNIFORME" x:Name="btnmru" WidthRequest="350" FontSize="12" BackgroundColor="LightSteelBlue"
+                Image="mru.png" HorizontalOptions="Start" Clicked="btnmru_Clicked"/>
+        <Button Text="MOVIMIENTO RECTILÍNEO UNIFORMEMENTE ACELERADO" x:Name="btnmrua" WidthRequest="350" FontSize="12" BackgroundColor="LightSteelBlue"
+                Image="mrua.png" HorizontalOptions="Start" Clicked="btnmrua_Clicked"/>
+        <Button Text="Segunda ley de Newton" WidthRequest="350" x:Name="btnsln" FontSize="12" BackgroundColor="LightSteelBlue"
+                Image="sln.png" HorizontalOptions="Start" Clicked="btnsln_Clicked"/>
+        <Button Text="Tercera ley de Newton" WidthRequest="350" x:Name="btntln" FontSize="12" BackgroundColor="LightSteelBlue"
+                Image="tln.png" HorizontalOptions="Start" Clicked="btntln_Clicked"/>
+        <Button Text="Ley de Gravitación Universal" WidthRequest="350" x:Name="btnlgu" FontSize="12" BackgroundColor="LightSteelBlue"
+                Image="lgu.pmg" HorizontalOptions="Start" Clicked="btnlgu_Clicked"/>
+        <Button Text="Datos de Identificación" WidthRequest="350" x:Name="btnd" FontSize="12" BackgroundColor="LightSteelBlue"
+                Image="datos.png" HorizontalOptions="Start" Clicked="btnd_Clicked"/>
+    </StackLayout>
+   
+</ContentPage>
