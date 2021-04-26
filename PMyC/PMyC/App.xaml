@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PMyC.App">
     <Application.Resources>
-
+<ResourceDictionary>
+            <OnPlatform x:Key="fuente" x:TypeArguments="x:String">
+                <On Platform="Android" Value="bahnschrift.ttf#bahnschrift"/>
+            </OnPlatform>
+            
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
