@@ -2,9 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PMyC.mrua">
-    <StackLayout BackgroundColor="SteelBlue">
-        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
-            <Label Text="Movimiento Rectilíneo Uniformemente Acelerado" HorizontalTextAlignment="Center"  TextColor="AliceBlue" FontSize="32"/>
+   <StackLayout BackgroundColor="SteelBlue" >
+        <Frame BackgroundColor="#2B2D2F" Padding="13" CornerRadius="0" Margin="0">
+            <Label Text="LEY DE GRAVITACIÓN UNIVERSAL" HorizontalTextAlignment="Center" TextColor="white" FontSize="16" FontFamily="{StaticResource fuente}" />
         </Frame>
+        <Image Source="EJEMPLOLEY.jpg" HeightRequest="130" />
+        <Label Text="FÓRMULA Y SIMBOLOGÍA:" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
+        <Image Source="FORMULALEY.jpg" HeightRequest="115" />
+ 
+        <Label Text="FORMULARIO:" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
+        <Label Text="INGRESA LA CONSTANTE GRAVITACIONAL: " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}" />
+        <Entry Placeholder="..." x:Name="txtN1" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
+        <Label Text="INGRESA LA MASA DEL CUERPO 1: " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}"/>
+        <Entry Placeholder="..." x:Name="txtN2" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
+        <Label Text="INGRESA LA MASA DEL CUERPO 2: " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}"/>
+        <Entry Placeholder="..." x:Name="txtN3" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
+        <Label Text="INGRESA LA DISTANCIA ENTRE LOS CUERPOS: " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}"/>
+        <Entry Placeholder="..." x:Name="txtN4" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
+        <Button Text="CALCULAR" BorderColor="SteelBlue" Clicked="Button_Clicked" CornerRadius="100" Padding="2" BackgroundColor="#2B2D2F" TextColor="White"/>
+        <Entry x:Name="resultado" Placeholder="RESULTADO" IsEnabled="False" TextColor="Black" PlaceholderColor="Black" BackgroundColor="SteelBlue" />
+
     </StackLayout>
+
 </ContentPage>
