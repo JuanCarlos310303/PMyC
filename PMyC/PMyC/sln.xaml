@@ -10,7 +10,7 @@
     <StackLayout BackgroundColor="SteelBlue">
         <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
             <Label Text="Segunda Ley de Newton" HorizontalTextAlignment="Center"  TextColor="AliceBlue" FontSize="32"/>
-        <Label Text="Prueba"/>zzz
+        <Label Text="Prueba"/>
 >>>>>>> ae21fac2282ef5b7c187cfdae654c13d6af2d98a
         </Frame>
         <Image Source="EJEMPLOSEGUNDA.jpg" HeightRequest="190" />
