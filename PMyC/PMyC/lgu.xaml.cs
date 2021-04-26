@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace PMyC
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Igu : ContentPage
+    public partial class lgu : ContentPage
     {
-        public Igu()
+        public lgu()
         {
             InitializeComponent();
         }
@@ -36,3 +36,4 @@ namespace PMyC
         }
     }
 }
+
