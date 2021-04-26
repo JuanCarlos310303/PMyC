@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +15,21 @@ namespace PMyC
         public tln()
         {
             InitializeComponent();
+        }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txtN1.Text))
+            {
+                var m = double.Parse(txtN1.Text);
+                var fuerza = m + "  N";
+
+                resultado.Text = fuerza.ToString();
+            }
+            else
+            {
+                DisplayAlert("Datos incompletos", "Escribe todos los datos", "ok");
+            }
+
         }
     }
 }
