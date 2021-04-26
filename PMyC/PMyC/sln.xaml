@@ -5,7 +5,6 @@
     <StackLayout BackgroundColor="SteelBlue">
         <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
             <Label Text="Segunda Ley de Newton" HorizontalTextAlignment="Center"  TextColor="AliceBlue" FontSize="32"/>
-        <Label Text="Prueba"/>zzz
         </Frame>
     </StackLayout>
 </ContentPage>
