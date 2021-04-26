@@ -9,9 +9,9 @@ using Xamarin.Forms.Xaml;
 
 namespace PMyC
 {
-    public partial class MainPage : ContentPage
+    public partial class mru : ContentPage
     {
-        public MainPage()
+        public mru()
         {
             InitializeComponent();
         }
