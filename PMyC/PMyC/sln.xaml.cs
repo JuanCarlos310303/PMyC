@@ -16,5 +16,22 @@ namespace PMyC
         {
             InitializeComponent();
         }
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txtN1.Text) && !String.IsNullOrEmpty(txtN2.Text))
+            {
+                var m = double.Parse(txtN1.Text);
+                var a = double.Parse(txtN2.Text);
+
+                var fuerza = (a * m) + " N";
+
+                resultado.Text = fuerza.ToString();
+            }
+            else
+            {
+                DisplayAlert("Datos incompletos", "Escribe todos los datos", "ok");
+            }
+
+        }
     }
 }
