@@ -9,12 +9,27 @@ using Xamarin.Forms.Xaml;
 
 namespace PMyC
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class mru : ContentPage
+    public partial class MainPage : ContentPage
     {
-        public mru()
+        public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txtN1.Text) && !String.IsNullOrEmpty(txtN2.Text))
+            {
+                var distancia = double.Parse(txtN1.Text);
+                var tiempo = double.Parse(txtN2.Text);
+                var velocidad = distancia/tiempo+" m/s";
+                resultado.Text = velocidad.ToString();
+            }
+            else
+            {
+                DisplayAlert("Datos incompletos", "Escribe todos los datos", "ok");
+            }
+
         }
     }
 }
