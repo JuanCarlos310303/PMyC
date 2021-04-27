@@ -5,10 +5,10 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="SteelBlue">
             <Label Text="Formulae" HorizontalTextAlignment="Center" TextColor="LightBlue"
-                   FontAttributes="Bold" FontSize="80"/>
+                   FontAttributes="Bold" FontSize="80" FontFamily="{StaticResource fuente}"/>
             <Image Source="Logo.png" HorizontalOptions="Center"/>
             <Label Text="Formulae es una aplicación educativa orientada a estudiantes. Su objetivo es proporcionar una colección de fórmulas referentes a temas de Física que sean de gran ayuda a la hora de realizar ciertos cálculos, simbologías para conocer las magnitudes presentes en la fórmula, una imagen para ejemplificar el tema, además, contiene formularios en cada contenido para hacer operaciones y determinar algún valor." 
-                   HorizontalTextAlignment="Start" FontSize="20" TextColor="White"/>
+                   HorizontalTextAlignment="Start" FontSize="20" TextColor="White" FontFamily="{StaticResource fuente}" Margin="10" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

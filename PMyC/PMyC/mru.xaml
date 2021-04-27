@@ -2,29 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PMyC.mru">
-    <StackLayout BackgroundColor="SteelBlue" >
-        <Frame BackgroundColor="#2B2D2F" Padding="13" CornerRadius="0" Margin="0">
-            <Label Text="MRU-MOVIMIENTO RECTILÍNEO UNIFORME" HorizontalTextAlignment="Center" TextColor="white" FontSize="16" FontFamily="{StaticResource fuente}" />
-        </Frame>
-        <Image Source="EJEMPLOMRU.jpg" HeightRequest="200" />
-        <Label Text="FÓRMULA:" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}"/>
-        <Image Source="MRU.jpg" HeightRequest="50" />
-        <Label Text="SIMBOLOGÍA:" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}" />
-        <Frame BackgroundColor="SteelBlue" Padding="5" CornerRadius="0" Margin="0">
-            <Label Text="V= VELOCIDAD                  D=DISTANCIA" HorizontalTextAlignment="Center" TextColor="Black" FontSize="15" FontFamily="{StaticResource fuente}"/>
-        </Frame>
-    
-        <Frame BackgroundColor="SteelBlue" Padding="5" CornerRadius="0" Margin="0">
-            <Label Text="T=TIEMPO" HorizontalTextAlignment="Center" TextColor="Black" FontSize="15" FontFamily="{StaticResource fuente}"/>
-        </Frame>
-        <Label Text="FORMULARIO:" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}"/>
-        <Label Text="INGRESA LA DISTANCIA EN METROS: " FontSize="15" TextColor="black" Margin="5" FontFamily="{StaticResource fuente}" />
-        <Entry Placeholder="..." x:Name="txtN1" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
-        <Label Text="INGRESA EL TIEMPO EN SEGUNDOS: " FontSize="15" TextColor="black" Margin="5" FontFamily="{StaticResource fuente}"/>
-        <Entry Placeholder="..." x:Name="txtN2" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
-        <Button Text="CALCULAR" BorderColor="SteelBlue" Clicked="Button_Clicked" CornerRadius="100" Padding="2" BackgroundColor="#2B2D2F" TextColor="White"/>
-        <Entry x:Name="resultado" Placeholder="RESULTADO" IsEnabled="False" TextColor="Black" PlaceholderColor="Black" BackgroundColor="SteelBlue" />
+    <ScrollView>
+        <StackLayout BackgroundColor="SteelBlue" >
+            <Frame BackgroundColor="#2B2D2F" Padding="13" CornerRadius="0" Margin="0">
+                <Label Text="MRU-MOVIMIENTO RECTILÍNEO UNIFORME" HorizontalTextAlignment="Center" TextColor="white" FontSize="16" FontFamily="{StaticResource fuente}" />
+            </Frame>
+            
+            <Label Text="FÓRMULA:" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}"/>
+            <Image Source="MRU2.jpg" HeightRequest="50" />
+            <Label Text="SIMBOLOGÍA:" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}" />
+            <Frame BackgroundColor="SteelBlue" Padding="5" CornerRadius="0" Margin="0">
+                <Label Text="V= VELOCIDAD                  D=DISTANCIA" HorizontalTextAlignment="Center" TextColor="Black" FontSize="15" FontFamily="{StaticResource fuente}"/>
+            </Frame>
 
-    </StackLayout>
+            <Frame BackgroundColor="SteelBlue" Padding="5" CornerRadius="0" Margin="0">
+                <Label Text="T=TIEMPO" HorizontalTextAlignment="Center" TextColor="Black" FontSize="15" FontFamily="{StaticResource fuente}"/>
+            </Frame>
+            <Label Text="EJEMPLO: :" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}"/>
+            <Image Source="EJEMPLOMRU.jpg" HeightRequest="200" />
+            <Label Text="FORMULARIO:" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}"/>
+            <Label Text="INGRESA LA DISTANCIA EN METROS: " FontSize="15" TextColor="black" Margin="5" FontFamily="{StaticResource fuente}" />
+            <Entry Placeholder="..." x:Name="txtN1" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
+            <Label Text="INGRESA EL TIEMPO EN SEGUNDOS: " FontSize="15" TextColor="black" Margin="5" FontFamily="{StaticResource fuente}"/>
+            <Entry Placeholder="..." x:Name="txtN2" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
+            <Button Text="CALCULAR" BorderColor="SteelBlue" Clicked="Button_Clicked" CornerRadius="100" Padding="2" BackgroundColor="#2B2D2F" TextColor="White"/>
+            <Entry x:Name="resultado" Placeholder="RESULTADO" IsEnabled="False" TextColor="Black" PlaceholderColor="Black" BackgroundColor="SteelBlue" />
+
+        </StackLayout>
+    </ScrollView>
+    
 
 </ContentPage>

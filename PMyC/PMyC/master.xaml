@@ -7,10 +7,10 @@
         <StackLayout BackgroundColor="LightSteelBlue">
         <Frame BackgroundColor="SteelBlue">
             <Label Text="Contenido" TextColor="White" FontSize="20" HorizontalTextAlignment="Center"
-                   FontAttributes="Bold"/>
+                   FontAttributes="Bold" FontFamily="{StaticResource fuente}"/>
         </Frame>
-        <Button Text="MOVIMIENTO RECTILÍNEO              UNIFORME" x:Name="btnmru" WidthRequest="350" FontSize="12" BackgroundColor="LightSteelBlue"
-                Image="mru.png" HorizontalOptions="Start" Clicked="btnmru_Clicked"/>
+        <Button Text="MOVIMIENTO RECTILÍNEO                          UNIFORME" x:Name="btnmru" WidthRequest="350" FontSize="12" BackgroundColor="LightSteelBlue"
+                Image="mru.png" HorizontalOptions="Start" Clicked="btnmru_Clicked"  />
         <Button Text="MOVIMIENTO RECTILÍNEO UNIFORMEMENTE ACELERADO" x:Name="btnmrua" WidthRequest="350" FontSize="12" BackgroundColor="LightSteelBlue"
                 Image="mrua.png" HorizontalOptions="Start" Clicked="btnmrua_Clicked"/>
         <Button Text="Segunda ley de Newton" WidthRequest="350" x:Name="btnsln" FontSize="12" BackgroundColor="LightSteelBlue"
