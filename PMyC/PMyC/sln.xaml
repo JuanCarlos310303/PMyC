@@ -2,35 +2,31 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PMyC.sln">
-<<<<<<< HEAD
-    <StackLayout BackgroundColor="SteelBlue" >
-        <Frame BackgroundColor="#2B2D2F" Padding="13" CornerRadius="0" Margin="0">
-            <Label Text="SEGUNDA LEY DE NEWTON" HorizontalTextAlignment="Center" TextColor="white" FontSize="16" FontFamily="{StaticResource fuente}" />
-=======
-    <StackLayout BackgroundColor="SteelBlue">
-        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
-            <Label Text="Segunda Ley de Newton" HorizontalTextAlignment="Center"  TextColor="AliceBlue" FontSize="32"/>
-        <Label Text="Prueba"/>
->>>>>>> ae21fac2282ef5b7c187cfdae654c13d6af2d98a
-        </Frame>
-        <Image Source="EJEMPLOSEGUNDA.jpg" HeightRequest="190" />
-        <Label Text="FÓRMULA" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
-        <Image Source="FORMULASEGUNDA.jpg" HeightRequest="75" />
-        <Label Text="SIMBOLOGÍA:" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
-        <Frame BackgroundColor="SteelBlue" Padding="5" CornerRadius="0" Margin="0">
-            <Label Text="a= ACELERACIÓN                  m= MASA" HorizontalTextAlignment="Center" TextColor="Black" FontSize="15" FontFamily="{StaticResource fuente}"/>
-        </Frame>
-        <Frame BackgroundColor="SteelBlue" Padding="5" CornerRadius="0" Margin="0">
-            <Label Text="F= FUERZA NETA" HorizontalTextAlignment="Center" TextColor="Black" FontSize="15" FontFamily="{StaticResource fuente}"/>
-        </Frame>
-        <Label Text="FORMULARIO:" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
-        <Label Text="INGRESA LA MASA EN KG  " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}" />
-        <Entry Placeholder="..." x:Name="txtN1" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
-        <Label Text="INGRESA LA ACELERACION EN m/s² " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}"/>
-        <Entry Placeholder="..." x:Name="txtN2" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
-        <Button Text="CALCULAR" BorderColor="SteelBlue" Clicked="Button_Clicked" CornerRadius="100" Padding="2" BackgroundColor="#2B2D2F" TextColor="White"/>
-        <Entry x:Name="resultado" Placeholder="RESULTADO" IsEnabled="False" TextColor="Black" PlaceholderColor="Black" BackgroundColor="SteelBlue" />
+    <ScrollView>
+        <StackLayout BackgroundColor="SteelBlue" >
+            <Frame BackgroundColor="#2B2D2F" Padding="13" CornerRadius="0" Margin="0">
+                <Label Text="SEGUNDA LEY DE NEWTON" HorizontalTextAlignment="Center" TextColor="white" FontSize="16" FontFamily="{StaticResource fuente}" />
+            </Frame>
 
-    </StackLayout>
+            <Label Text="FÓRMULA" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
+            <Image Source="FORMULASEGUNDA.jpg" HeightRequest="75" />
+            <Label Text="SIMBOLOGÍA:" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
+            <Frame BackgroundColor="SteelBlue" Padding="5" CornerRadius="0" Margin="0">
+                <Label Text="a= ACELERACIÓN                  m= MASA" HorizontalTextAlignment="Center" TextColor="Black" FontSize="15" FontFamily="{StaticResource fuente}"/>
+            </Frame>
+            <Frame BackgroundColor="SteelBlue" Padding="5" CornerRadius="0" Margin="0">
+                <Label Text="F= FUERZA NETA" HorizontalTextAlignment="Center" TextColor="Black" FontSize="15" FontFamily="{StaticResource fuente}"/>
+            </Frame>
+            <Label Text="EJEMPLO: :" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}"/>
+            <Image Source="EJEMPLOSEGUNDA.jpg" HeightRequest="190" />
+            <Label Text="FORMULARIO:" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
+            <Label Text="INGRESA LA MASA EN KG  " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}" />
+            <Entry Placeholder="..." x:Name="txtN1" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
+            <Label Text="INGRESA LA ACELERACION EN m/s² " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}"/>
+            <Entry Placeholder="..." x:Name="txtN2" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
+            <Button Text="CALCULAR" BorderColor="SteelBlue" Clicked="Button_Clicked" CornerRadius="100" Padding="2" BackgroundColor="#2B2D2F" TextColor="White"/>
+            <Entry x:Name="resultado" Placeholder="RESULTADO" IsEnabled="False" TextColor="Black" PlaceholderColor="Black" BackgroundColor="SteelBlue" />
 
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
