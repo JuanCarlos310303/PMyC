@@ -19,9 +19,9 @@ namespace PMyC
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            if (!String.IsNullOrEmpty(txtN1.Text) && !String.IsNullOrEmpty(txtN2.Text ) && !String.IsNullOrEmpty(txtN3.Text) && !String.IsNullOrEmpty(txtN4.Text))
+            if (!String.IsNullOrEmpty(txtN2.Text ) && !String.IsNullOrEmpty(txtN3.Text) && !String.IsNullOrEmpty(txtN4.Text))
             {
-                var g = double.Parse(txtN1.Text);
+                var g = (6.673*Math.Pow(10,-11));
                 var m1 = double.Parse(txtN2.Text);
                 var m2 = double.Parse(txtN3.Text);
                 var d2 = double.Parse(txtN4.Text);

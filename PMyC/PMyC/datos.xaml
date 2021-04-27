@@ -3,38 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PMyC.datos">
     <StackLayout BackgroundColor="SteelBlue">
-        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
-            <Label Text="Datos de Identificación" HorizontalTextAlignment="Center"  TextColor="AliceBlue" FontSize="32"/>
+        <Frame BackgroundColor="#2B2D2F" Padding="13" CornerRadius="0" Margin="0">
+            <Label Text="DATOS DE IDENTIFIACIÓN" HorizontalTextAlignment="Center" TextColor="white" FontSize="16" FontFamily="{StaticResource fuente}" />
         </Frame>
         <Label Text="INTEGRANTES:" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
         <Label Text="GUSTAVO MORALES DÍAZ" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
         <Label Text="JORGE RODRIGO MORALES RODRÍGUEZ" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
         <Label Text="JUAN CARLOS RAMÍREZ BARBA" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
         <Label Text="JULIO CESAR TEHOZOL CURIEL" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
+        <Label Text="SEMESTRE: 6" HorizontalTextAlignment="Center"
                FontSize="16" TextColor="AliceBlue"/>
-        <Label Text="SEMESTRE:" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
-        <Label Text="6" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
-        <Label Text="GRUPO:" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
-        <Label Text="AMPG" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+        <Label Text="GRUPO: AMPG" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
         <Label Text="ASIGNATURA:" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
         <Label Text="DESARROLLA APLICACIONES MÓVILES PARA IOS" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
         <Label Text="DOCENTE:" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
         <Label Text="PATRICIA CEDILLO XOCHIPA" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
-        <Label Text="FECHA:" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
-        <Label Text="27/ABRIL/2021" HorizontalTextAlignment="Center"
-               FontSize="16" TextColor="AliceBlue"/>
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
+        <Label Text="FECHA: 27/ABRIL/2021" HorizontalTextAlignment="Center"
+               FontSize="16" TextColor="AliceBlue" FontFamily="{StaticResource fuente}"/>
+        
     </StackLayout>
 </ContentPage>

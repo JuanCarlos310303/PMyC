@@ -2,16 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PMyC.lgu">
-
-    <StackLayout BackgroundColor="SteelBlue" >
+    <ScrollView>
+        <StackLayout BackgroundColor="SteelBlue" >
         <Frame BackgroundColor="#2B2D2F" Padding="13" CornerRadius="0" Margin="0">
             <Label Text="LEY DE GRAVITACIÓN UNIVERSAL" HorizontalTextAlignment="Center" TextColor="white" FontSize="16" FontFamily="{StaticResource fuente}" />
         </Frame>
-        <Image Source="EJEMPLOLEY.jpg" HeightRequest="130" />
+        
         <Label Text="FÓRMULA Y SIMBOLOGÍA:" HorizontalTextAlignment="Start"  TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
-        <Image Source="FORMULALEY.jpg" HeightRequest="115" />
- 
-        <Label Text="FORMULARIO:" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
+            <Image Source="FORMULALEY.jpg" HeightRequest="115" />
+            <Label Text="EJEMPLO: :" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="5" FontFamily="{StaticResource fuente}"/>
+            <Image Source="EJEMPLOLEY.jpg" HeightRequest="130" />
+            <Label Text="FORMULARIO:" HorizontalTextAlignment="Start" TextDecorations="Underline" TextColor="Black" FontSize="15" Margin="3" FontFamily="{StaticResource fuente}"/>
         <Label Text="INGRESA LA CONSTANTE GRAVITACIONAL: " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}" />
         <Entry Placeholder="..." x:Name="txtN1" Keyboard="Numeric" BackgroundColor="SteelBlue"/>
         <Label Text="INGRESA LA MASA DEL CUERPO 1: " FontSize="15" TextColor="black" Margin="3" FontFamily="{StaticResource fuente}"/>
@@ -24,5 +25,6 @@
         <Entry x:Name="resultado" Placeholder="RESULTADO" IsEnabled="False" TextColor="Black" PlaceholderColor="Black" BackgroundColor="SteelBlue" />
 
     </StackLayout>
+    </ScrollView>
 
 </ContentPage>
